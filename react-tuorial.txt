@@ -1,0 +1,12 @@
+for babel commands
+
+for conversion to jsx in a particular file
+babel srcfile --out-file=targetfile --presets=env,react
+
+this will watch all the changes in the source file when we save it
+babel srcfile --out-file=targetfile --presets=env,react --watch
+
+please run live-server for the public folder then every time we change the file
+the changes are reflected in the target file and it loaded in the browser also
+
+every time I open the application first follow the above steps before coding
